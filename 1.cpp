@@ -32,6 +32,10 @@ void Marble::set_no(int a){
 }
 
 
+struct Bag{
+    class Marble;
+}
+
 
 int main(){
     srand(time(0));
